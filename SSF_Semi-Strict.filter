@@ -2,7 +2,7 @@
 Show
 	AreaLevel <= 82
 	Rarity Rare
-	Class "Wand"
+	BaseType "Prophecy Wand"
 	SetBorderColor 0 255 100
 	SetFontSize 50
 	PlayAlertSound 2 100
