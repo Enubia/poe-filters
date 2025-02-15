@@ -2,7 +2,7 @@
 Show
 	AreaLevel <= 82
 	Rarity Rare
-	BaseType "Prophecy Wand"
+	BaseType "Prophecy Wand" "Omen Wand"
 	SetBorderColor 0 255 100
 	SetFontSize 50
 	PlayAlertSound 2 100
@@ -1561,12 +1561,6 @@ Show
 	SetFontSize 50
 
 Show
-	Class "Stackable Currency"
-	AreaLevel <= 40
-	SetBorderColor 238 130 238
-	SetFontSize 30
-
-Show
 	ItemLevel = 1
 	BaseType "Driftwood Club" "Rusted Sword" "Crude Bow" "Glass Shank" "Driftwood Wand" "Driftwood Sceptre"
 
@@ -1641,10 +1635,10 @@ Show
 	SetBorderColor 238 130 238
 	SetFontSize 40
 
-### Low Tier Currency
+### Remaining Low Tier Currency
 Show
 	Class "Stackable Currency"
-	StackSize >= 10
+	StackSize >= 5
 	AreaLevel <= 83
 	SetBorderColor 238 130 238
 	SetFontSize 40
@@ -1652,7 +1646,13 @@ Show
 Show
 	Class "Stackable Currency"
 	StackSize >= 2
-	AreaLevel <= 76
+	AreaLevel <= 78
+	SetBorderColor 238 130 238
+	SetFontSize 40
+
+Show
+	Class "Stackable Currency"
+	AreaLevel <= 68
 	SetBorderColor 238 130 238
 	SetFontSize 40
 
