@@ -1,4 +1,4 @@
-### Base: Build Gear
+### Build Gear
 Show
 	AreaLevel <= 82
 	Rarity Rare
@@ -10,7 +10,19 @@ Show
 	MinimapIcon 2 Green Square
 	DisableDropSound True
 
-### #############################
+### Events #############################
+
+### Legacy of Phrecia Idols
+Show
+	Class "Idol"
+	BaseType "Minor Idol" "Kamasan Idol" "Totemic Idol" "Noble Idol" "Burial Idol" "Conqueror Idol"
+	SetTextColor 168 180 40
+	SetBorderColor 168 180 40
+	SetFontSize 40
+	PlayAlertSound 8 50
+	MinimapIcon 2 White Yellow
+
+### Base Game #############################
 
 ### Basic: Reliquary Keys
 Show
