@@ -20,7 +20,8 @@ Show
 	SetBorderColor 168 180 40
 	SetFontSize 40
 	PlayAlertSound 8 50
-	MinimapIcon 2 White Yellow
+	MinimapIcon 2 Yellow Star
+	PlayEffect Yellow
 
 ### Base Game #############################
 
